@@ -1,11 +1,22 @@
-Test documentation
+Test documentation -> Test plan ->>> 
 
+
+Steps to SetUp Postman Tests 
+
+1. Create a New Collection:
+-  Open Postman.
+- Click on "New" and select "Collection".
+-  Name your collection, e.g., "Artists API Tests".
+2. Add Requests to the Collection:
+- For each test case, create a new request and add it to the collection.
+3. Set Up Test Scripts:
+- For each request, use the Tests tab to write test scripts to validate the responses.
 
 Running the Tests
-Collection Runner:
-Go to the Collection Runner in Postman.
-Select the "Artists API Tests" collection.
-Click "Run".
+1. Collection Runner:
+2. Go to the Collection Runner in Postman.
+3. Select the "Artists API Tests" collection.
+4. Click "Run".
 
 
 
