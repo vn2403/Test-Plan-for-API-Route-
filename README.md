@@ -1,4 +1,4 @@
-Test documentation -> Test plan ->>> 
+Test documentation -> Test plan ->>> Test Plan for API Route  - Artists.pdf
 
 
 Steps to SetUp Postman Tests 
