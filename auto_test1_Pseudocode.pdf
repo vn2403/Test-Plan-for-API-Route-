@@ -1,0 +1,39 @@
+Test case: Exact name match -> Send a GET request with the "name_exact" parameter containing an artist's name
+- Description:  Filter artists by an exact name match.
+- Input: name_exact=Kobe
+- Expected Result: HTTP 200 OK, results contain artists with the exact name "Kobe".
+
+# Define test data
+base_url = "https://api.beatportstage.com/v4/catalog/artists/"
+artist_name = "D"
+
+# Construct request URL
+url = base_url + "?name_exact=" + artist_name
+
+# Send GET request
+response = send_get_request(url)
+
+# Validate response
+if response.status_code != 200:
+  report_failure("Unexpected status code: " + str(response.status_code))
+  exit
+
+if response.content_type != "application/json":
+  report_failure("Unexpected content type: " + response.content_type)
+  exit
+
+# Parse JSON response
+data = parse_json(response.body)
+
+if not data.has_key("Results"):
+  report_failure("Missing 'Results' property in response")
+  exit
+
+# Check artist names
+for artist in data["Results"]:
+  if artist["name"] != artist_name:
+    report_failure("Artist name mismatch found")
+    exit
+
+# Test successful
+report_success("Test passed: Get Artists by Exact Name")
