@@ -1,6 +1,12 @@
-Test documentation -> Test plan ->>> Test Plan for API Route  - Artists.pdf
+Technical Interview - Platform
+***
+Directions
+1. Please create a test plan for this route, addressing positive and negative tests ->  Test plan -> Test Plan for API Route  -> Artists.pdf
+2. Please create an automated test for this route. Pseudocode is acceptable. Assume the general framework is already in place ->  Automated Test: Pseudocode/JS
 
 
+
+***
 Steps to SetUp Postman Tests 
 
 1. Create a New Collection:
@@ -19,7 +25,7 @@ Running the Tests
 4. Click "Run".
 
 
-
+***
 References: API Documentation
 Route GET /v4/catalog/artists/
 Artists are the producers or performers of music in the Beatport catalog. This route returns a list
