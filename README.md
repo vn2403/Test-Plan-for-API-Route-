@@ -2,7 +2,7 @@ Technical Interview - Platform
 ***
 Directions
 1. Please create a test plan for this route, addressing positive and negative tests ->  Test plan -> Test Plan for API Route  ->  https://docs.google.com/document/d/1OfoLhPLUtCZCOqJdYGMYT9jB_bVfQC7ehMfxZ6vjYQ4/edit?usp=sharing 
-2. Please create an automated test for this route. Pseudocode is acceptable. Assume the general framework is already in place ->  https://docs.google.com/document/d/1J1-aaF5QX3TNQGpz-qGlXnazpy7kc_cNUBf-MwN5dfI/edit?usp=sharing
+2. Please create an automated test for this route. Pseudocode is acceptable. Assume the general framework is already in place -> Automated Test: Pseudocode/JS" -> https://docs.google.com/document/d/1J1-aaF5QX3TNQGpz-qGlXnazpy7kc_cNUBf-MwN5dfI/edit?usp=sharing
    
 
 ***
