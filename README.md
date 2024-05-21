@@ -1,29 +1,9 @@
 Technical Interview - Platform
 ***
 Directions
-1. Please create a test plan for this route, addressing positive and negative tests ->  Test plan -> Test Plan for API Route  -> Artists.pdf
-2. Please create an automated test for this route. Pseudocode is acceptable. Assume the general framework is already in place ->  Automated Test: Pseudocode/JS
-
-
-
-***
-Steps to SetUp Postman Tests 
-
-1. Create a New Collection:
--  Open Postman.
-- Click on "New" and select "Collection".
--  Name your collection, e.g., "Artists API Tests".
-2. Add Requests to the Collection:
-- For each test case, create a new request and add it to the collection.
-3. Set Up Test Scripts:
-- For each request, use the Tests tab to write test scripts to validate the responses.
-
-Running the Tests
-1. Collection Runner:
-2. Go to the Collection Runner in Postman.
-3. Select the "Artists API Tests" collection.
-4. Click "Run".
-
+1. Please create a test plan for this route, addressing positive and negative tests ->  Test plan -> Test Plan for API Route  ->  https://docs.google.com/document/d/1OfoLhPLUtCZCOqJdYGMYT9jB_bVfQC7ehMfxZ6vjYQ4/edit?usp=sharing 
+2. Please create an automated test for this route. Pseudocode is acceptable. Assume the general framework is already in place ->  https://docs.google.com/document/d/1J1-aaF5QX3TNQGpz-qGlXnazpy7kc_cNUBf-MwN5dfI/edit?usp=sharing
+   
 
 ***
 References: API Documentation
