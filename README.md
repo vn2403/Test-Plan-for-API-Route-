@@ -1,4 +1,4 @@
-Technical Interview - Platform
+
 ***
 Directions
 1. Please create a test plan for this route, addressing positive and negative tests 
